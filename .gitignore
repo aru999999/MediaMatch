@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# secrets and caches
+backend/.env
+backend/cache/
+
+# datasets are not redistributed in the repo (see data/README.md)
+data/movies/*.csv
+data/books/*.csv
+data/music/*.csv
